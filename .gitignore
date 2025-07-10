@@ -1,44 +1,4 @@
-# Python compiled files
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-
-# Virtual environment
 .venv/
-env/
-venv/
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# IDE/editor config
-.vscode/
-.idea/
-
-# Python environment files
-*.egg-info/
-*.egg
-*.bak
-
-# Database
-*.sqlite3
-*.db
-
-# Env files (token, secrets)
+__pycache__/
+*.pyc
 .env
-.env.*
-
-# Railway or Docker build
-.Dockerfile.swp
-*.dockerfile
-Dockerfile
-docker-compose.yml
-*.sh
-
-# Jupyter or IPython (if used)
-.ipynb_checkpoints/
