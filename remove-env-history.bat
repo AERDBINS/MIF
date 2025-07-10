@@ -9,9 +9,9 @@ if %errorlevel% neq 0 (
     pause
     exit /b
 )
-
 :: 2. Loyihaga o'tish
-cd /d %~dp0
+cd /d %~d
+p0
 
 :: 3. Git tarixdan .env faylni olib tashlash
 git filter-repo --path .env --invert-paths

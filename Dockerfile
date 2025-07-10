@@ -12,3 +12,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Botni ishga tushirish
 CMD ["python", "bot/main.py"]
+
+
+ENV PYTHONPATH=/app
